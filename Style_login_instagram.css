@@ -1,0 +1,165 @@
+body{
+  background-color: #fafafa;
+}
+main {
+  min-height: 100vh;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+}
+.container{
+  
+  max-width: 40%;
+  max-height: 85vh;
+  margin: 0px auto;
+  display: flex;
+  
+}
+.gambar{
+  width: 50%;
+}
+
+.ig-png{
+  width: 100%;
+}
+
+.card-wrapper{
+  width: 50%
+ 
+  
+  
+}
+
+.logo-png{
+  width: 50%;
+  padding-top: 20px;
+}
+
+.card{
+  
+  border: 1px solid gray;
+  text-align: center;
+ 
+  border-radius: 5px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  
+}
+
+.form{
+  margin-top: 10px;
+ 
+ 
+}
+
+.input{
+  width: 75%;
+  height: 30px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  
+  
+}
+
+.btn{
+  width: 75%;
+  background-color: #0095f6;
+  text-align: center;
+  font-size: 14px;
+  height: 30px;
+  border: none;
+  color: white;
+  text-decoration: bold;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+
+hover .btn
+
+
+
+
+.login-with{
+  text-decoration: none;
+  color: #0095f6;
+}
+
+.forgot{
+  text-decoration: none;
+  color:black;
+}
+
+.singup{
+  text-decoration: none;
+  color:#0095f6;
+  
+}
+
+
+
+
+
+.app{
+  width: 100%;
+}
+
+table{
+  text-align: center;
+  
+}
+
+.or{
+  width: 80%;
+  
+  
+}
+
+.line{
+  background-color: gray;
+  height: 2px;
+  width: 88%;
+  
+}
+
+@media screen and (max-width: 1000px) {
+  .gambar {
+    visibility: hidden;
+    position: absolute;
+
+
+  }
+
+  .card-wrapper{
+    width: 80%
+   
+    
+    
+  }
+  
+
+  .container {
+    max-width: 100%;
+  
+   display: flex;
+   justify-content: center;
+   
+  }
+  main {
+    min-height: 100vh;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    
+  }
+}
+
+@media screen and (max-width: 1720px) {
+
+.container{
+  
+  max-width: 80%;
+ 
+  
+}
+}
